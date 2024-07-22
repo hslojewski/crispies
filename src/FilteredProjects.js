@@ -6,7 +6,7 @@ const React = require('react');
 class FilteredProjects extends React.Component {
   render() {
     const {
-      orderChronologically, projectData, getProjectData,
+      orderChronologically, projectData, getProjectData, page = 1,
       projects = {}, activeTags = [], filterType = "AND", numToDisplay =  null
     } = this.props;
 
@@ -55,46 +55,48 @@ class FilteredProjects extends React.Component {
     }
     // console.log(numToDisplay);
     // console.log(projectsToDisplay);
-
+    // debugger;
     return (
         <div>
-          {projectsToDisplay.length > 0 &&
-            <div className="project-list-wrapper">
-              <ul className={projectsToDisplay.length === 1 ? "one-item" : (projectsToDisplay.length === 2 ? "two-items" : null)}>
-              {projectsToDisplay.map((projectPath, i) => {
-                return(
-                  <li key={i} className="project-detail">
-                    <table>
-                      <tr>
-                        <td>
-                        <Content
-                          projectPath={projectPath}
-                          thumbnail={projects[projectPath].thumbnail}
-                          data={projectData}
-                          getProjectData={getProjectData}
-                          title={projects[projectPath].title}
-                          tags={{
-                            tools: projects[projectPath].tools,
-                            skills: projects[projectPath].skills,
-                            affiliations: projects[projectPath].affiliations,
-                            roles: projects[projectPath].roles
-                          }}
-                          date={projects[projectPath].date}
-                          type="project"
-                          orderChronologically={orderChronologically}
-                      />
-                        </td>
-                      </tr>
-                    </table>
-                  </li>
-                )
-              })}
-              </ul>
-            </div>
-          }
-          {projectsToDisplay.length === 0 &&
-            <div></div>
-          }
+          <div className="project-detail">
+            {projectsToDisplay.slice(((page-1)*15),((page)*15)).map((projectPath, i) => {
+              return(
+                  <Content
+                    projectPath={projectPath}
+                    thumbnail={projects[projectPath].thumbnail}
+                    data={projectData}
+                    getProjectData={getProjectData}
+                    title={projects[projectPath].title}
+                    postContent={projects[projectPath].postContent}
+                    isReply={projects[projectPath].isReply}
+                    images={projects[projectPath].images}
+                    tags={{
+                      tools: projects[projectPath].tools,
+                      skills: projects[projectPath].skills,
+                      affiliations: projects[projectPath].affiliations,
+                      roles: projects[projectPath].roles
+                    }}
+                    date={projects[projectPath].date}
+                    type="project"
+                    orderChronologically={orderChronologically}
+                />
+              )
+            })}
+          </div>
+          <table className="page-counter">
+            <tr>
+                <td><a href="#/projects">1</a></td>
+                <td><a href="#/projects/2">2</a></td>
+                <td><a href="#/projects/2">3</a></td>
+                <td><a href="#/projects/2">4</a></td>
+                <td><a href="#/projects/2">5</a></td>
+                <td><a href="#/projects/2">6</a></td>
+                <td><a href="#/projects/2">7</a></td>
+                <td><a href="#/projects/2">8</a></td>
+                <td><a href="#/projects/2">9</a></td>
+                <td><a href="#/projects/2">10</a></td>
+            </tr>
+          </table>
         </div>
     )
   }

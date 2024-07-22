@@ -47,8 +47,9 @@ class Content extends React.Component {
 
   render() {
     const {
-      displayProjects, orderChronologically,
-      thumbnail = "", data = {}, tags = { tools: [], skills: [], affiliations: [], roles: [] }, date = null, title = null, titleAlignment = null, type = null, projects = {}
+      displayProjects, orderChronologically, isReply = false,
+      thumbnail = "", data = {}, tags = { tools: [], skills: [], affiliations: [], roles: [] }, date = null, title = null, titleAlignment = null, type = null, projects = {},
+      images = [], postContent = ""
     } = this.props;
 
     this.imageModalTrigger();
@@ -63,23 +64,31 @@ class Content extends React.Component {
     
     
     return (
-      <div>
-        <table>
-          <tr>
-            <td>
-              {thumbnail &&
-                <div className="content-banner">
-                  <img src={[process.env.PUBLIC_URL, thumbnail].join("/")} alt="" />
-                </div>
-              }
-            </td>
-            <td>
-              <h1 className={titleAlignment}>{title}</h1>
-              <p className="description">post content</p>
-            </td>
-          </tr>
-        </table>
-      </div>
+      <table className={isReply ? "reply" : ""}>
+        <tr>
+          <td>
+            {thumbnail &&
+              <div className="content-banner">
+                <img src={[process.env.PUBLIC_URL, thumbnail].join("/")} alt="" />
+              </div>
+            }
+          </td>
+          <td>
+            <p>
+              <b className="username">{title}</b>
+              <i className="date">{date}</i>
+            </p>
+            <p className="post-content">{postContent}</p>
+            {images.length > 0 &&
+              <div className="image-container">
+                {(images||[]).map((image, i) => {
+                  return(<img src={[process.env.PUBLIC_URL, image].join("/")} />);
+                })}
+              </div>
+            }
+          </td>
+        </tr>
+      </table>
     );
   }
 }

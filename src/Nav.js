@@ -17,7 +17,7 @@ class Nav extends React.Component {
       <nav className="nav">
         <ul className={!isNavVisible ? "hide-on-mobile" : null}>
           <li className="home">
-            <Link to="/">Forum Name</Link>
+            <Link to="/">WebSite B Theories</Link>
           </li>
           <li>
             <Link to="/about">Link</Link>

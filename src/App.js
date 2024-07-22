@@ -115,6 +115,7 @@ const App = () => {
       .then(response => {
         return response.json();
       }).then(result => {
+          // debugger;
           setAllProjects(result);
           setProjects(result);
           getTags(result);
@@ -284,6 +285,30 @@ const App = () => {
                element={
                 <Projects
                   projects={projects}
+                  page={1}
+                  tools={tags.tools}
+                  skills={tags.skills}
+                  affiliations={tags.affiliations}
+                  roles={tags.roles}
+                  // tags={tags}
+                  toggleFilterType={toggleFilterType}
+                  filterType={filterType}
+                  activeTags={activeTags}
+                  displayProjects={displayProjects}
+                  clearActiveTags={clearActiveTags}
+                  toggleAccordion={toggleAccordion}
+                  orderChronologically={orderChronologically}
+                  tagAccordions={tagAccordions}
+                  projectData={projectData}
+                  getProjectData={getProjectData}
+                />
+              }
+        />
+        <Route path="/projects/2"
+               element={
+                <Projects
+                  projects={projects}
+                  page={2}
                   tools={tags.tools}
                   skills={tags.skills}
                   affiliations={tags.affiliations}

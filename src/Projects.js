@@ -15,7 +15,7 @@ class Projects extends React.Component {
 
     render() {
         const {
-            displayProjects, clearActiveTags, toggleAccordion, orderChronologically, projectData, getProjectData,
+            displayProjects, clearActiveTags, toggleAccordion, orderChronologically, projectData, getProjectData, page = 1,
             activeTags = [], tools = [], skills = [], affiliations = [], roles = [], projects = {}, filterType = "AND", tagAccordions = {}
         } = this.props;
 
@@ -23,9 +23,8 @@ class Projects extends React.Component {
             <div className="forum">
                 <Nav />
                 <div className="page-content projects-list">
-                    <h1>Projects</h1>
-                    <h2>List</h2>
-                    <FilteredProjects projects={projects} activeTags={activeTags} filterType={filterType} displayProjects={displayProjects} orderChronologically={orderChronologically} projectData={projectData} getProjectData={getProjectData} />
+                    <h2>What's a scary experience you've had but no one believes you?</h2>
+                    <FilteredProjects projects={projects} page={page} activeTags={activeTags} filterType={filterType} displayProjects={displayProjects} orderChronologically={orderChronologically} projectData={projectData} getProjectData={getProjectData} />
                 </div>
             </div>
         );
