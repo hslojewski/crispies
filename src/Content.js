@@ -39,15 +39,17 @@ class Content extends React.Component {
       projectPath = "",
     } = this.props;
     // getProjectData(projectPath);
-    document.querySelector('body').scrollTo({
-      top: 0,
-      left: 0
-    });
+    // document.querySelector('body').scrollTo({
+    //   top: 0,
+    //   left: 0
+    // });
+    // document.querySelector("body").scrollTo(0,0);
   }
+
 
   render() {
     const {
-      displayProjects, orderChronologically, isReply = false,
+      displayProjects, orderChronologically, isReply = 0, hasReplies = 0,
       thumbnail = "", data = {}, tags = { tools: [], skills: [], affiliations: [], roles: [] }, date = null, title = null, titleAlignment = null, type = null, projects = {},
       images = [], postContent = ""
     } = this.props;
@@ -64,7 +66,7 @@ class Content extends React.Component {
     
     
     return (
-      <table className={isReply ? "reply" : ""}>
+      <table className={isReply ? "reply"+isReply : ""}>
         <tr>
           <td>
             {thumbnail &&
@@ -78,7 +80,7 @@ class Content extends React.Component {
               <b className="username">{title}</b>
               <i className="date">{date}</i>
             </p>
-            <p className="post-content">{postContent}</p>
+            <p className="post-content">{parse(postContent)}</p>
             {images.length > 0 &&
               <div className="image-container">
                 {(images||[]).map((image, i) => {
@@ -86,6 +88,7 @@ class Content extends React.Component {
                 })}
               </div>
             }
+            <p className="reply-counter">{hasReplies ? ("+" + hasReplies + (hasReplies === 1 ? " more reply" : " more replies")) : null}</p>
           </td>
         </tr>
       </table>

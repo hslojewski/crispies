@@ -4,6 +4,11 @@ import Content from './Content';
 const React = require('react');
 
 class FilteredProjects extends React.Component {
+
+  scrollToTop() {
+    document.querySelector("body").scrollTo(0,0);
+  }
+
   render() {
     const {
       orderChronologically, projectData, getProjectData, page = 1,
@@ -69,6 +74,7 @@ class FilteredProjects extends React.Component {
                     title={projects[projectPath].title}
                     postContent={projects[projectPath].postContent}
                     isReply={projects[projectPath].isReply}
+                    hasReplies={projects[projectPath].hasReplies}
                     images={projects[projectPath].images}
                     tags={{
                       tools: projects[projectPath].tools,
@@ -85,16 +91,11 @@ class FilteredProjects extends React.Component {
           </div>
           <table className="page-counter">
             <tr>
-                <td><a href="#/projects">1</a></td>
-                <td><a href="#/projects/2">2</a></td>
-                <td><a href="#/projects/2">3</a></td>
-                <td><a href="#/projects/2">4</a></td>
-                <td><a href="#/projects/2">5</a></td>
-                <td><a href="#/projects/2">6</a></td>
-                <td><a href="#/projects/2">7</a></td>
-                <td><a href="#/projects/2">8</a></td>
-                <td><a href="#/projects/2">9</a></td>
-                <td><a href="#/projects/2">10</a></td>
+              {[...Array(10).keys()].map((num) => {
+                return(
+                  <td><a href={"#/projects/"+(num+1)} onClick={this.scrollToTop}>{num+1}</a></td>  
+                )
+              })}
             </tr>
           </table>
         </div>

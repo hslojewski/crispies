@@ -25,35 +25,15 @@ class Nav extends React.Component {
           <li>
             <Link to="/projects">Link</Link>
           </li>
+          <li className="search">
+            <input type="text" placeholder="Search.."></input>
+          </li>
           {/* <li>
             <Link to="/resume" target="_blank">
               <span className="mobile-only-nav-text">Resume</span>
               <FaFile />
             </Link>
           </li> */}
-          <li>
-            <Link to="mailto:heidi.slojewski@gmail.com" aria-label="Email">
-              <span className="mobile-only-nav-text">Email</span>
-              <FaEnvelope />
-            </Link>
-          </li>
-          <li>
-            <Link to="https://www.linkedin.com/in/heidislojewski" target="_blank" aria-label="LinkedIn">
-              <span className="mobile-only-nav-text">LinkedIn</span>
-              <FaLinkedinIn />
-            </Link>
-          </li>
-          <li className="colorMode">
-            <Link className={"mode " + colorMode+"-mode"}
-                  alt={[colorMode, "mode"].join(" ")}
-                  onClick={toggleColorMode}>
-              <span className="mobile-only-nav-text" aria-label={dynamicColorModeMessage}>{dynamicColorModeMessage}</span>
-              {colorMode === "light" ? <FaRegMoon title={switchToDarkMessage} /> : <FaRegSun title={switchToLightMessage} />}
-            </Link>
-          </li>
-          <li className="menu" aria-label="Menu" onClick={toggleNav}>
-            <FaBars />
-          </li>
         </ul>
       </nav>
     );

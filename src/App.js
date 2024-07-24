@@ -248,6 +248,7 @@ const App = () => {
     getProjectsAndTags();
     initializeSeason();
     initializeColorMode();
+    // document.querySelector("body").scrollTo(0,0);
   }, [])
   
   return (
@@ -281,7 +282,7 @@ const App = () => {
                 />
                }
         />
-        <Route path="/projects"
+        <Route path="/projects/1"
                element={
                 <Projects
                   projects={projects}

@@ -1,15 +1,80 @@
 .drawing{
+    // td{ vertical-align: top; }
+    height: 100%;
+    &.light-styles{
+        background: lightgray;
+        color: black;
+        h1{
+            color: green;
+        } 
+        p{
+            &.orange,.orange{
+                color: rgb(192, 125, 0);
+            }
+            &.turquoise,.turquoise{
+                color: teal;
+                font-weight: bold;
+            }
+        }
+    }
     text-align: center;
     font-family: initial;
     background: black;
     color: white;
-    height: 100vh;
     padding: 15px;
-    h1{ color: yellow; }
-    h3{ font-family: Arial; }
+    .nav{
+        a{
+            margin: 0 10px;
+            color: #FF10F0;
+            font-size: 20px;
+        }
+    }
+    h1{
+        color: yellow;
+    }
+    h3{
+        font-family: papyrus;
+        font-size: 25px;
+        .draw{
+            text-decoration: underline;
+        }
+        .come{
+            font-size: 30px;
+        }
+    }
     marquee{
         font-size: 25px;
         color: red;
+        width: 50%;
+        u{ font-size: 30px; }
+        b{ font-size: 35px; }
     }
-
+    .header{
+        font-family: math;
+        font-size: 20px;
+        margin: 0 auto;
+        h1{
+            margin: 0 20px;
+        }
+        .header-image{
+            width: 200px;
+            &.flipped{
+                transform: scaleX(-1);
+            }
+        }
+    }
+    .article-title{
+        font-family: cursive;
+        font-size: 50px;
+    }
+    p{
+        font-weight: bold;
+        font-size: large;
+        &.orange,.orange{
+            color: #d68832;
+        }
+        &.turquoise,.turquoise{
+            color: #08f2c7;
+        }
+    }
 }
