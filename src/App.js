@@ -254,11 +254,20 @@ const App = () => {
   return (
     <div className="app">
       <Routes>
-        <Route exact="true" path="/drawing"
-                element={
-                <Drawing
-                />
-                }
+        <Route exact="true" path="/woman"
+                element={<Drawing/>}
+        />
+        <Route exact="true" path="/woman/dbi"
+                element={<Drawing theme="dark-bg-image" />}
+        />
+        <Route exact="true" path="/woman/dbc"
+                element={<Drawing theme="dark-bg-color" />}
+        />
+        <Route exact="true" path="/woman/lbi"
+                element={<Drawing theme="light-bg-image" />}
+        />
+        <Route exact="true" path="/woman/lbc"
+                element={<Drawing theme="light-bg-color" />}
         />
         <Route exact="true" path="/"
                element={
@@ -282,7 +291,7 @@ const App = () => {
                 />
                }
         />
-        <Route path="/projects/1"
+        <Route path="/forum/1"
                element={
                 <Projects
                   projects={projects}
@@ -305,7 +314,7 @@ const App = () => {
                 />
               }
         />
-        <Route path="/projects/2"
+        <Route path="/forum/2"
                element={
                 <Projects
                   projects={projects}

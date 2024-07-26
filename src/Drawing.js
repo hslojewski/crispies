@@ -3,11 +3,16 @@ import './Drawing.scss';
 
 class Drawing extends React.Component {
 
-  render() {    
+
+  render() {   
+    const {
+        theme = "dark-bg-image"
+    } = this.props;
+
     return (
         <div>
 
-      <div className="drawing light-styles">
+      <div className={"drawing "+theme}>
         <table className="header">
             <tr>
                 <td>
