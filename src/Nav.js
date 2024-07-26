@@ -16,7 +16,7 @@ class Nav extends React.Component {
     return(
       <div>
         <div className="banner-container">
-          <img className="banner" src={[process.env.PUBLIC_URL, "projects/thumbnails/cryp_banner.png"].join("/")} alt="" />
+          <img className="banner" src={[process.env.PUBLIC_URL, "images/thumbnails/cryp_banner.png"].join("/")} alt="" />
           <div class="bottom-left">Webcite B Theories</div>
         </div>
         <nav className="nav">

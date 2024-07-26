@@ -94,7 +94,7 @@ class FilteredProjects extends React.Component {
             <tr>
               {[...Array(10).keys()].map((num) => {
                 return(
-                  <td><a href={"#/projects/"+(num+1)} onClick={this.scrollToTop}>{num+1}</a></td>  
+                  <td><a href={"#/forum/"+(num+1)} onClick={this.scrollToTop}>{num+1}</a></td>  
                 )
               })}
             </tr>

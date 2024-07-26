@@ -110,7 +110,7 @@ const App = () => {
   }
 
   var getProjectsAndTags = () => {
-    var projectsListPath = `${process.env.PUBLIC_URL}/projects_list.json`;
+    var projectsListPath = `${process.env.PUBLIC_URL}/posts_list.json`;
     fetch(projectsListPath)
       .then(response => {
         return response.json();
@@ -125,7 +125,7 @@ const App = () => {
   }
 
   var getProjectData = (projId) => {
-    var projPath = `${process.env.PUBLIC_URL}/projects/${projId}.json`;
+    var projPath = `${process.env.PUBLIC_URL}/images/${projId}.json`;
     fetch(projPath)
       .then(response => {
         return response.json();
@@ -338,7 +338,7 @@ const App = () => {
               }
         />
         {Object.keys(projects).map((projectPath, i) => {
-          var path = "/projects/" + projectPath;
+          var path = "/images/" + projectPath;
           return (
             <Route path={path}
                    key={i} 
