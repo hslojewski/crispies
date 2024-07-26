@@ -20,13 +20,160 @@ class Projects extends React.Component {
             activeTags = [], tools = [], skills = [], affiliations = [], roles = [], projects = {}, filterType = "AND", tagAccordions = {}
         } = this.props;
 
+        var relatedForums = [
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            },
+            {
+                "topic": "Another Topic",
+                "preview": "Lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff lorem ipsum stuff",
+                "upvotes": 2,
+                "comments": 4
+            }
+        ];
+
         return (
             <div className="forum">
                 <Nav />
                 <div className="page-content projects-list">
-                    <table>
+                    <table className="main-page">
                         <tr>
-                            <td>
+                            <div className="forum-content">
                                 <table>
                                     <tr>
                                         <td>
@@ -45,10 +192,22 @@ class Projects extends React.Component {
                                 <h2>What's your paranormal experience that no one believes?</h2>
                                 <p>Basically what the title says... Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
                                 <FilteredProjects projects={projects} page={page} activeTags={activeTags} filterType={filterType} displayProjects={displayProjects} orderChronologically={orderChronologically} projectData={projectData} getProjectData={getProjectData} />
-                            </td>
-                            <td className="sidebar">
-                                sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar 
-                            </td>
+                            </div>
+                            <div className="sidebar">
+                                <div className="category">
+                                    <p className="title">b/CreepyStuff</p>
+                                    <p>Creepy pasta, creepy pizza, creepy smorgasbord.</p>
+                                </div>
+                                {relatedForums.map(forum => {
+                                    return(
+                                        <div className="other-topic">
+                                            <p className="title">{forum.topic}</p>
+                                            <p>{forum.preview}</p>
+                                            <p className="reactions">{forum.upvotes} upvotes · {forum.comments} comments</p>
+                                        </div> 
+                                    )
+                                })}
+                            </div>
                         </tr>
                     </table>
                 </div>

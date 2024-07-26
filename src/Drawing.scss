@@ -1,25 +1,29 @@
 .drawing{
     // td{ vertical-align: top; }
     height: 100%;
-    &.light-styles{
-        background: lightgray;
-        color: black;
-        h1{
-            color: green;
-        } 
-        p{
-            &.orange,.orange{
-                color: rgb(192, 125, 0);
-            }
-            &.turquoise,.turquoise{
-                color: teal;
-                font-weight: bold;
-            }
-        }
-    }
+    // &.light-styles{
+    //     background: lightgray;
+    //     background-image: url("https://christiancountynow.sagacom.com/files/2023/09/Cloudy-1200-2023-1200x768.jpg");
+    //     color: black;
+    //     h1{
+    //         color: green;
+    //     } 
+    //     p{
+    //         &.orange,.orange{
+    //             color: rgb(192, 125, 0);
+    //         }
+    //         &.turquoise,.turquoise{
+    //             color: teal;
+    //             font-weight: bold;
+    //         }
+    //     }
+    // }
+    // &:not(.light-styles){
+        background-image: url("https://wallpapers.com/images/hd/90s-black-2000-x-1125-xwdvwwoojtt6tx1t.jpg");
+        // background: black;
+    // }
     text-align: center;
     font-family: initial;
-    background: black;
     color: white;
     padding: 15px;
     .nav{

@@ -74,6 +74,7 @@ class FilteredProjects extends React.Component {
                     title={projects[projectPath].title}
                     postContent={projects[projectPath].postContent}
                     isReply={projects[projectPath].isReply}
+                    upvotes={projects[projectPath].upvotes}
                     hasReplies={projects[projectPath].hasReplies}
                     images={projects[projectPath].images}
                     tags={{

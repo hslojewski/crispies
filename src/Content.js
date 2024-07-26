@@ -49,7 +49,7 @@ class Content extends React.Component {
 
   render() {
     const {
-      displayProjects, orderChronologically, isReply = 0, hasReplies = 0,
+      displayProjects, orderChronologically, isReply = 0, hasReplies = 0, upvotes = 0,
       thumbnail = "", data = {}, tags = { tools: [], skills: [], affiliations: [], roles: [] }, date = null, title = null, titleAlignment = null, type = null, projects = {},
       images = [], postContent = ""
     } = this.props;
@@ -88,7 +88,16 @@ class Content extends React.Component {
                 })}
               </div>
             }
-            <p className="reply-counter">{hasReplies ? ("+" + hasReplies + (hasReplies === 1 ? " more reply" : " more replies")) : null}</p>
+            <p className="post-options">
+              <span>▼</span>
+              <span>{upvotes}</span>
+              <span>▲</span>
+              <span className="reply-link">Reply</span>
+              <span className="share-link">Share</span>
+            </p>
+            {hasReplies > 0 &&
+              <p className="reply-counter">{hasReplies ? ("+" + hasReplies + (hasReplies === 1 ? " more reply" : " more replies")) : null}</p>
+            }
           </td>
         </tr>
       </table>
