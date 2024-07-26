@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/crispies/static/css/main.6927d5f1.css",
-    "main.js": "/crispies/static/js/main.b801fae7.js",
+    "main.js": "/crispies/static/js/main.2867cd3b.js",
     "static/js/787.d234d2b4.chunk.js": "/crispies/static/js/787.d234d2b4.chunk.js",
     "index.html": "/crispies/index.html",
     "main.6927d5f1.css.map": "/crispies/static/css/main.6927d5f1.css.map",
-    "main.b801fae7.js.map": "/crispies/static/js/main.b801fae7.js.map",
+    "main.2867cd3b.js.map": "/crispies/static/js/main.2867cd3b.js.map",
     "787.d234d2b4.chunk.js.map": "/crispies/static/js/787.d234d2b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6927d5f1.css",
-    "static/js/main.b801fae7.js"
+    "static/js/main.2867cd3b.js"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "post10": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -10,7 +10,7 @@
   },
   "post25": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -19,7 +19,7 @@
   },
   "post24": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -28,7 +28,7 @@
   },
   "post23": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -37,16 +37,16 @@
   },
   "post1": {
       "title": "username",
-      "thumbnail": "projects/thumbnails/placeholder.png",
+      "thumbnail": "images/thumbnails/placeholder.png",
       "postContent": "i saw this",
       "images": [
-        "projects/thumbnails/cryptid.png"
+        "images/thumbnails/cryptid.png"
       ],
       "date": "1 year ago"
   },
   "post22": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -54,7 +54,7 @@
   },
   "post9": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -62,7 +62,7 @@
   },
   "post21": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -70,7 +70,7 @@
   },
   "post11": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -78,7 +78,7 @@
   },
   "post28": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -86,16 +86,16 @@
   },
   "post3": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
-      "projects/thumbnails/wolfman.jpg"
+      "images/thumbnails/wolfman.jpg"
     ],
     "date": "1 year ago"
   },
   "post27": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -103,7 +103,7 @@
   },
   "post26": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -111,16 +111,16 @@
   },
   "post4": {
     "title": "moth-rob",
-    "thumbnail": "projects/thumbnails/mothman.jpg",
+    "thumbnail": "images/thumbnails/mothman.jpg",
     "postContent": "Pretty sure I saw THE MOTHMAN when I was in 8th grade. I've been obsessed with it so much, it's become like my whole identity at this point.",
     "images": [
-      "projects/thumbnails/mothman.jpg"
+      "images/thumbnails/mothman.jpg"
     ],
     "date": "1 year ago"
   },
   "post13": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -128,7 +128,7 @@
   },
   "post14": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -136,7 +136,7 @@
   },
   "post20": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -144,16 +144,16 @@
   },
   "post2": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
-      "projects/thumbnails/bigfoot.jpg"
+      "images/thumbnails/bigfoot.jpg"
     ],
     "date": "1 year ago"
   },
   "post12": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -161,16 +161,16 @@
   },
   "post5": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
-      "projects/thumbnails/pan.jpg"
+      "images/thumbnails/pan.jpg"
     ],
     "date": "1 year ago"
   },
   "post30": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -178,7 +178,7 @@
   },
   "post15": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -186,16 +186,16 @@
   },
   "post31": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "I found this guy's site a looonnnggg time ago, I don't even remember how I found it but I still it's still up! He talks about a drawing that can come to life on his site... the lady with the long arms.</p><br /><br /><p><a href='/crispies/#/drawing'>Here's the Link.</a>",
     "images": [
-      "projects/thumbnails/woman.jpg"
+      "images/thumbnails/woman.jpg"
     ],
     "date": "1 year ago"
   },
   "post29": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -203,7 +203,7 @@
   },
   "post19": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -211,7 +211,7 @@
   },
   "post18": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -219,16 +219,16 @@
   },
   "post6": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
-      "projects/thumbnails/wolfguy.jpg"
+      "images/thumbnails/wolfguy.jpg"
     ],
     "date": "1 year ago"
   },
   "post17": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -236,16 +236,16 @@
   },
   "post7": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
-      "projects/thumbnails/great_dane.jpg"
+      "images/thumbnails/great_dane.jpg"
     ],
     "date": "1 year ago"
   },
   "post16": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
     ],
@@ -253,10 +253,10 @@
   },
   "post8": {
     "title": "username",
-    "thumbnail": "projects/thumbnails/placeholder.png",
+    "thumbnail": "images/thumbnails/placeholder.png",
     "postContent": "i saw this",
     "images": [
-      "projects/thumbnails/saw_guy.jpg"
+      "images/thumbnails/saw_guy.jpg"
     ],
     "date": "1 year ago"
   }
