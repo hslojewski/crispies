@@ -629,6 +629,11 @@ color: rgba(255, 255, 255, 0.9);
     border-radius: 1;
     width: 100%;
     border-spacing: 0 15px;
+    &.lone-comment{
+      border-top: 0.5px solid lightgray;
+      
+    }
+    margin-top: 10px;
     // background: rgba(1, 1, 1, 0.5);
     &.reply1{
       margin-left: 10%;
@@ -723,7 +728,7 @@ color: rgba(255, 255, 255, 0.9);
   .other-topic{
     padding: 15px;
     font-size: 12px;
-    border-bottom: 0.25px solid lightgray;
+    border-bottom: 0.25px solid gray;
     p{ margin: 0; }
     .title{
       font-size: 14px;
@@ -770,6 +775,7 @@ color: rgba(255, 255, 255, 0.9);
 
 .post-options{
   color: lightgray;
+  font-size: 12px;
   span{
     padding: 0 3px;
     &.reply-link{
@@ -784,6 +790,10 @@ color: rgba(255, 255, 255, 0.9);
 
 .forum-content, .sidebar{
   display:inline-block;
+}
+
+.username, .post-options{
+  cursor: pointer;
 }
 
 }

@@ -223,27 +223,6 @@ const App = () => {
     setNavVisibility(!isNavVisible);
   }
 
-  var orderChronologically = (projects) => {
-    var blah = {};
-    Object.keys(allProjects).forEach(a => {
-      blah[a] = allProjects[a].date;
-      // console.log(allProjects[a].date);
-      // debugger;
-    });
-    var reverseChronYears = Array.from(new Set(Object.values(blah))).sort().reverse();
-    // console.log("reverseChronYears");
-    // console.log(reverseChronYears);
-    var orderedProjects = [];
-    reverseChronYears.forEach(year => {
-      Object.keys(projects).forEach(a => {
-        if (year === projects[a].date && !orderedProjects.includes(a)) {
-          orderedProjects.push(a);
-        }
-      })
-    });
-    return orderedProjects;
-  }
-
   useEffect(() => {
     getProjectsAndTags();
     initializeSeason();
@@ -276,7 +255,6 @@ const App = () => {
                   projectData={projectData}
                   displayProjects={displayProjects}
                   projects={projects}
-                  orderChronologically={orderChronologically}
                />
               }
         />
@@ -287,7 +265,6 @@ const App = () => {
                   projectData={projectData}
                   displayProjects={displayProjects}
                   projects={projects}
-                  orderChronologically={orderChronologically}
                 />
                }
         />
@@ -307,7 +284,6 @@ const App = () => {
                   displayProjects={displayProjects}
                   clearActiveTags={clearActiveTags}
                   toggleAccordion={toggleAccordion}
-                  orderChronologically={orderChronologically}
                   tagAccordions={tagAccordions}
                   projectData={projectData}
                   getProjectData={getProjectData}
@@ -330,7 +306,6 @@ const App = () => {
                   displayProjects={displayProjects}
                   clearActiveTags={clearActiveTags}
                   toggleAccordion={toggleAccordion}
-                  orderChronologically={orderChronologically}
                   tagAccordions={tagAccordions}
                   projectData={projectData}
                   getProjectData={getProjectData}
@@ -357,7 +332,6 @@ const App = () => {
                       }}
                       date={projects[projectPath].date}
                       type="project"
-                      orderChronologically={orderChronologically}
                     />
                     }
               />

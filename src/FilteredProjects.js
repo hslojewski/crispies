@@ -11,7 +11,7 @@ class FilteredProjects extends React.Component {
 
   render() {
     const {
-      orderChronologically, projectData, getProjectData, page = 1,
+      projectData, getProjectData, page = 1,
       projects = {}, activeTags = [], filterType = "AND", numToDisplay =  null
     } = this.props;
 
@@ -52,8 +52,7 @@ class FilteredProjects extends React.Component {
         }
       });
     }
-    var orderedProjects = orderChronologically(projects);
-    projectsToDisplay = orderedProjects.filter(a => projectsToDisplay.includes(a));
+    projectsToDisplay = projectsToDisplay;
     
     if (numToDisplay && projectsToDisplay.length) {
       projectsToDisplay = projectsToDisplay.slice(0, numToDisplay);
@@ -74,6 +73,7 @@ class FilteredProjects extends React.Component {
                     title={projects[projectPath].title}
                     postContent={projects[projectPath].postContent}
                     isReply={projects[projectPath].isReply}
+                    hasReply={projects[projectPath].hasReply}
                     upvotes={projects[projectPath].upvotes}
                     hasReplies={projects[projectPath].hasReplies}
                     images={projects[projectPath].images}
@@ -85,7 +85,6 @@ class FilteredProjects extends React.Component {
                     }}
                     date={projects[projectPath].date}
                     type="project"
-                    orderChronologically={orderChronologically}
                 />
               )
             })}

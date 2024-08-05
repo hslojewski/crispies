@@ -49,7 +49,7 @@ class Content extends React.Component {
 
   render() {
     const {
-      displayProjects, orderChronologically, isReply = 0, hasReplies = 0, upvotes = 0,
+      displayProjects, isReply = 0, hasReply = false, hasReplies = 0, upvotes = 0,
       thumbnail = "", data = {}, tags = { tools: [], skills: [], affiliations: [], roles: [] }, date = null, title = null, titleAlignment = null, type = null, projects = {},
       images = [], postContent = ""
     } = this.props;
@@ -64,9 +64,8 @@ class Content extends React.Component {
       "FaEnvelope": FaEnvelope
     };
     
-    
     return (
-      <table className={isReply ? "reply"+isReply : ""}>
+      <table className={isReply ? "reply"+isReply : (hasReply ? "" : "lone-comment")}>
         <tr>
           <td>
             {thumbnail &&
@@ -90,7 +89,7 @@ class Content extends React.Component {
             }
             <p className="post-options">
               <span>▼</span>
-              <span>{upvotes}</span>
+              <span>{upvotes == "random" ? Math.floor(Math.random() * 50) : upvotes}</span>
               <span>▲</span>
               <span className="reply-link">Reply</span>
               <span className="share-link">Share</span>
