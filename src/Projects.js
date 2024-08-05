@@ -178,12 +178,12 @@ class Projects extends React.Component {
                                     <tr>
                                         <td>
                                             <div className="post-avatar">
-                                                <img src={[process.env.PUBLIC_URL, "images/thumbnails/placeholder.png"].join("/")} alt="" />
+                                                <img src={[process.env.PUBLIC_URL, "images/thumbnails/random30.jpg"].join("/")} alt="" />
                                             </div>
                                         </td>
                                         <td>
                                             <p>
-                                                <b className="post-user">username</b>
+                                                <b className="post-user">NebulaNinja57</b>
                                                 <i className="post-date">8 years ago</i>
                                             </p>
                                         </td>
