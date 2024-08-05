@@ -312,6 +312,28 @@ const App = () => {
                 />
               }
         />
+        <Route path="/forum/3"
+               element={
+                <Projects
+                  projects={projects}
+                  page={3}
+                  tools={tags.tools}
+                  skills={tags.skills}
+                  affiliations={tags.affiliations}
+                  roles={tags.roles}
+                  // tags={tags}
+                  toggleFilterType={toggleFilterType}
+                  filterType={filterType}
+                  activeTags={activeTags}
+                  displayProjects={displayProjects}
+                  clearActiveTags={clearActiveTags}
+                  toggleAccordion={toggleAccordion}
+                  tagAccordions={tagAccordions}
+                  projectData={projectData}
+                  getProjectData={getProjectData}
+                />
+              }
+        />
         {Object.keys(projects).map((projectPath, i) => {
           var path = "/images/" + projectPath;
           return (

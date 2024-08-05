@@ -616,7 +616,7 @@ color: rgba(255, 255, 255, 0.9);
   }
 }
 .reply-counter{
-  padding-top: 20px;
+  padding-top: 5px;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 0 !important;
@@ -777,6 +777,7 @@ color: rgba(255, 255, 255, 0.9);
 .post-options{
   color: lightgray;
   font-size: 12px;
+  padding-top: 15px;
   span{
     padding: 0 3px;
     &.reply-link{

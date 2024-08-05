@@ -31,16 +31,6 @@
     "upvotes": "random"
   },
   "4": {
-    "title": "BeyondBelief22",
-    "thumbnail": "images/thumbnails/random4.jpg",
-    "postContent": "I swear I saw a UFO when I was camping. It hovered above us for a few minutes before speeding off. No one believes me, but I know what I saw!",
-    "images": [
-    ],
-    "hasReplies": 4,
-    "date": "1 year ago",
-    "upvotes": "random"
-  },
-  "5": {
       "title": "MrPink",
       "thumbnail": "images/thumbnails/random5.jpg",
       "postContent": "I once had a terrifying encounter with what I can only describe as a cryptid. A few years ago, while camping in the Appalachian Mountains, my friends and I saw a creature we couldn’t identify. It was tall, with an elongated body and glowing eyes that seemed to pierce through the darkness. We were all awake and saw it clearly, but when we tried to show it to our friends, it vanished into the trees. We reported it to local authorities and found out others had seen similar creatures, but they just shrugged it off as local legends. No one believes us, but I know what I saw.",
@@ -51,7 +41,7 @@
       "date": "1 year ago",
       "upvotes": "random"
   },
-  "6": {
+  "5": {
     "title": "candidaebacon",
     "thumbnail": "images/thumbnails/random6.jpg",
     "postContent": "My cat started hissing and scratching at an empty corner of the room for no reason. I think it saw something, but my family just thinks it’s being weird.",
@@ -61,7 +51,7 @@
     "date": "1 year ago",
     "upvotes": "random"
   },
-  "7": {
+  "6": {
     "title": "FrighteningFinds112020",
     "thumbnail": "images/thumbnails/random7.jpg",
     "postContent": "My friend and I were walking through the woods and saw a strange mist swirling around us. It felt like we were being watched, but we couldn’t find anything.",
@@ -71,7 +61,7 @@
     "date": "2 years ago",
     "upvotes": "random"
   },
-  "8": {
+  "7": {
     "title": "Cryptic_V0yag3r",
     "thumbnail": "images/thumbnails/random8.jpg",
     "postContent": "I’ve had dreams of a place I’ve never been, and then I visited that place and recognized it from my dreams. It’s happened several times, and it’s really unsettling.",
@@ -81,14 +71,25 @@
     "date": "2 years ago",
     "upvotes": "random"
   },
-  "9": {
+  "8": {
     "title": "toadlo",
     "thumbnail": "images/thumbnails/random28.jpg",
     "postContent": "I had a similar thing happen to me that i saw another user mention where I was sketching some creepy images of a lady for a costume. This was when I was already having sleepless nights working on my finals. At some point I thought I saw the hair across all the images move, as if they were feeling a light breeze from my dorm window. I never thought about it again until I read the post I saw somewhere else in here.",
     "images": [
-      "images/thumbnails/woman3.jpg"
+      "images/thumbnails/woman6.jpg"
     ],
     "date": "2 years ago",
+    "upvotes": "random"
+  },
+  "9": {
+    "title": "animalXing90",
+    "thumbnail": "images/thumbnails/random30.jpg",
+    "postContent": "something similar happened to me once man it was super creep",
+    "images": [
+      "images/thumbnails/woman3.jpg"
+    ],
+    "isReply": 1,
+    "date": "5 months ago",
     "upvotes": "random"
   },
   "10": {
@@ -112,10 +113,11 @@
     "upvotes": "random"
   },
   "12": {
-    "title": "Arcane_4dventurer",
-    "thumbnail": "images/thumbnails/random11.jpg",
-    "postContent": "Every night at 3 AM, my radio turns on by itself and starts playing static. My roommates think it’s just a faulty radio, but it’s too coincidental to ignore.",
+    "title": "saylorMoon10",
+    "thumbnail": "images/thumbnails/random31.jpg",
+    "postContent": "think I finally had an experience with the long-armed woman",
     "images": [
+      "images/thumbnails/woman5.jpg"
     ],
     "date": "2 years ago",
     "upvotes": "random"
@@ -131,30 +133,32 @@
     "upvotes": "random"
   },
   "14": {
-    "title": "nightCr4wler111755",
-    "thumbnail": "images/thumbnails/random13.jpg",
-    "postContent": "My dog used to bark at an empty spot in the room every night. When I asked the vet, they said it was normal, but it felt like something was really there.",
-    "images": [
-    ],
-    "date": "3 years ago",
-    "upvotes": "random"
-  },
-  "15": {
     "title": "telemuchos",
     "thumbnail": "images/thumbnails/random14.jpg",
-    "postContent": "I saw a figure moving across my backyard through the window, but when I went outside, there was no one there. My neighbors think it was just a shadow.",
+    "postContent": "I'm an artist and lately I've been dreaming about a shadowy figure so vivid that I have to draw it constantly. I'm in such a trance when I do it. Here's an example.",
     "images": [
+      "images/thumbnails/woman9.jpg"
     ],
     "hasReplies": 9,
     "date": "3 years ago",
     "upvotes": "random"
   },
-  "16": {
+  "15": {
     "title": "moth-rob",
     "thumbnail": "images/thumbnails/mothman.jpg",
     "postContent": "Pretty sure I saw THE MOTHMAN when I was in 8th grade. I've been obsessed with it so much, it's become like my whole identity at this point.",
     "images": [
       "images/thumbnails/mothman.jpg"
+    ],
+    "date": "3 years ago",
+    "upvotes": "random"
+  },
+  "16": {
+    "title": "munchies840",
+    "thumbnail": "images/thumbnails/placeholder.png",
+    "postContent": "I keep seeing this woman around ever since I found someone's sketchbook at a yard sale",
+    "images": [
+      "images/thumbnails/woman7.jpg"
     ],
     "date": "3 years ago",
     "upvotes": "random"
@@ -169,25 +173,6 @@
     "upvotes": "random"
   },
   "18": {
-    "title": "0ccult_0bs3rv3r",
-    "thumbnail": "images/thumbnails/random16.jpg",
-    "postContent": "I once saw a shadow figure standing at the end of my bed. I tried to wake up my partner, but when I looked again, it was gone. They think I was dreaming.",
-    "images": [
-    ],
-    "date": "4 years ago",
-    "upvotes": "random"
-  },
-  "19": {
-    "title": "ChillingCh@rms",
-    "thumbnail": "images/thumbnails/random17.jpg",
-    "postContent": "I found old photographs in my basement of people I don’t recognize, but they look exactly like my family members. It’s so eerie, but no one else sees it.",
-    "images": [
-    ],
-    "hasReplies": 8,
-    "date": "4 years ago",
-    "upvotes": "random"
-  },
-  "20": {
     "title": "PhantomHunt3r",
     "thumbnail": "images/thumbnails/random18.jpg",
     "postContent": "I had a sighting of what I believe was Bigfoot a few years ago while hiking in a remote part of the Pacific Northwest. I was setting up camp when I saw a massive, upright figure moving through the trees about 100 yards away. It was covered in dark, matted fur and seemed to be watching me. I tried to take a picture, but it vanished into the forest before I could get a clear shot. I told my friends and family, but they just laughed it off as a bear or a trick of the light. I know what I saw, though, and it’s made me question everything I thought I knew about wildlife.",
@@ -197,13 +182,35 @@
     "date": "4 years ago",
     "upvotes": "random"
   },
-  "21": {
+  "19": {
     "title": "phantomwind0w",
     "thumbnail": "images/thumbnails/random29.jpg",
     "postContent": "This is going to sound completely unbelievable, but here it goes. I was working on a detailed drawing variations of a woman in my sketchbook one evening. As I was adding the finishing touches, I noticed something strange—the woman in one of the sketches seemed to be moving slightly. At first, I thought it was just my eyes playing tricks on me, but then her hands moved almost like they were waving or beckoning to me. I was so stunned that I dropped my pencil. When I looked back, the drawing was still, but the whole experience felt incredibly real. I told my friends and even tried to show them the sketch, but they just think it was a vivid imagination or some kind of visual distortion. I know what I saw, and it’s something I can’t explain.",
     "images": [
       "images/thumbnails/woman2.jpg"
     ],
+    "date": "4 years ago",
+    "upvotes": "random"
+  },
+  "20": {
+    "title": "frogybreath18",
+    "thumbnail": "images/thumbnails/random32.jpg",
+    "postContent": "pretty sure i've seen this too o_O",
+    "images": [
+      "images/thumbnails/woman8.jpg"
+    ],
+    "isReply": 1,
+    "date": "4 years ago",
+    "upvotes": "random"
+  },
+  "21": {
+    "title": "foilhat_q23",
+    "thumbnail": "images/thumbnails/random33.jpg",
+    "postContent": "Uhh yeah, I'm a  little more creeped out knowing I think I've seen the same thing",
+    "images": [
+      "images/thumbnails/woman4.jpg"
+    ],
+    "isReply": 2,
     "date": "4 years ago",
     "upvotes": "random"
   },
@@ -239,7 +246,7 @@
     "upvotes": "random"
   },
   "25": {
-    "title": "Scr3ams33k",
+    "title": "scr3ams33k",
     "thumbnail": "images/thumbnails/random21.jpg",
     "postContent": "I found this guy's site a looonnnggg time ago, I don't even remember how I found it but I still it's still up! He talks about a drawing that can come to life on his site... the lady with the long arms.</p><br /><br /><p><a href='/crispies/#/drawing'>Here's the Link.</a>",
     "images": [
@@ -265,11 +272,10 @@
     ],
     "hasReplies": 7,
     "date": "5 years ago",
-    "upvotes": "random",
     "upvotes": "-16"
   },
   "28": {
-    "title": "GhostChaser83",
+    "title": "GhostChaser111755",
     "thumbnail": "images/thumbnails/random24.jpg",
     "postContent": "I had an experience a few years ago that still gives me chills. I was driving home late at night through a rural area when I saw what I thought was a large wolf crossing the road. But as I got closer, I realized it was standing on two legs and had a human-like face with intense, glowing eyes. It moved incredibly fast and disappeared into the woods before I could even react. I tried to tell my friends and even looked up local legends, but everyone just brushed it off as a wild animal or my imagination. I know what I saw, and it felt like I had glimpsed something straight out of a horror movie.",
     "images": [
@@ -298,6 +304,53 @@
     ],
     "hasReplies": 23,
     "date": "5 years ago",
+    "upvotes": "random"
+  },
+  "31": {
+    "title": "nightCr4wler",
+    "thumbnail": "images/thumbnails/random13.jpg",
+    "postContent": "My dog used to bark at an empty spot in the room every night. When I asked the vet, they said it was normal, but it felt like something was really there.",
+    "images": [
+    ],
+    "date": "6 years ago",
+    "upvotes": "random"
+  },
+  "32": {
+    "title": "0ccult_0bs3rv3r",
+    "thumbnail": "images/thumbnails/random16.jpg",
+    "postContent": "I once saw a shadow figure standing at the end of my bed. I tried to wake up my partner, but when I looked again, it was gone. They think I was dreaming.",
+    "images": [
+    ],
+    "date": "6 years ago",
+    "upvotes": "random"
+  },
+  "33": {
+    "title": "ChillingCh@rms",
+    "thumbnail": "images/thumbnails/random17.jpg",
+    "postContent": "I found old photographs in my basement of people I don’t recognize, but they look exactly like my family members. It’s so eerie, but no one else sees it.",
+    "images": [
+    ],
+    "hasReplies": 8,
+    "date": "6 years ago",
+    "upvotes": "random"
+  },
+  "34": {
+    "title": "BeyondBelief22",
+    "thumbnail": "images/thumbnails/random4.jpg",
+    "postContent": "I swear I saw a UFO when I was camping. It hovered above us for a few minutes before speeding off. No one believes me, but I know what I saw!",
+    "images": [
+    ],
+    "hasReplies": 4,
+    "date": "6 year ago",
+    "upvotes": "random"
+  },
+  "35": {
+    "title": "Arcane_4dventurer",
+    "thumbnail": "images/thumbnails/random11.jpg",
+    "postContent": "Every night at 3 AM, my radio turns on by itself and starts playing static. My roommates think it’s just a faulty radio, but it’s too coincidental to ignore.",
+    "images": [
+    ],
+    "date": "6 years ago",
     "upvotes": "random"
   }
 }
